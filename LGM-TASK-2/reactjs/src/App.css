@@ -1,0 +1,118 @@
+body{
+  background-color: #0cddec;
+}
+
+
+
+.row{
+  display: flex;
+  height: 60px;
+  padding: 10px 50px 0px 30px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 3px 3px 3px rgb(245, 1, 1);
+  letter-spacing: 2px;
+}
+
+
+
+.nav {
+  background-color: #b005ff;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imagefile {
+  border-radius: 50%;
+  box-shadow:  3px 3px 3px 3px #b1cf46;
+}
+
+.column3 {
+  float: left !important;
+  width: 33% !important;
+
+}
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  font-size: 75px;
+}
+
+
+.profile {
+  box-shadow: 5px 5px 5px 1px rgb(47, 2, 248);
+  max-width: 200px;
+  margin: 20px 5px;
+  text-align: center;
+  font-family: serif;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #0effaf;
+}
+
+.profile:hover {
+  cursor: pointer;
+  transition: .5s ease-in-out;
+  box-shadow: 8px 8px 5px rgb(127, 6, 241);
+  transform: scale(1.1);
+}
+.email {
+  color: rgb(39, 33, 33);
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.name {
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+#main {
+  padding: 7px 50px;
+  margin: 0 auto;
+  display: none;
+}
+.loader {
+  margin: 0 auto;
+}
+
+button {
+  color: rgb(44, 9, 241);
+  width: 10vw;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  float: right;
+  border-radius: 10px;
+  border: none;
+  background-color: #fdfd06;
+  height: 6vh;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: .4s ease-in;
+  background-color: rgb(0, 255, 64);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+
+.box2 {
+  display: flex;
+  margin: 40px 0 0 100px;
+}
